@@ -7,10 +7,8 @@ class Prefs {
 	}
 	
 	public static function getParam($field) {
-		//username 
-		$params['username'] = 'root';
-		//password
-		$params['password'] = 'oshan1991';
+		$params['username'] = '';//username 
+		$params['password'] = '';//password
 		$params['basedir'] = str_replace('fileNice','',dirname(__FILE__));
 		$params['path'] = '';
 		$params['exclude'] = array('.svn', 'CVS','.DS_Store','__MACOSX');
